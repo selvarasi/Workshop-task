@@ -1,0 +1,93 @@
+h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding-left: 600px;
+    text-shadow: 2px 2px 6px #ebe6e6;
+
+}
+body{
+    background-color: rgb(216, 141, 192);
+}
+.btn:hover{
+    color: #eadfea;
+    border-radius: 10px;
+    background-color: black;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+#btn {
+    color: #eadfea;
+    border-radius: 10px;
+    background-color: black;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    padding:6px 6px;
+
+  }
+  
+#btn {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+#btn span:after {
+    content: 'LIKE';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right:-10px;
+    transition: 0.5s;
+  }
+  
+  #btn:hover span {
+    padding-right: 25px;
+  }
+  
+  #btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+  #BTNN {
+    color: #eadfea;
+    border-radius: 10px;
+    background-color: black;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 15px;
+    display: inline-block;
+    padding:6px 6px;
+  }
+  
+#BTNN {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+#BTNN span:after {
+    content: 'DISLIKE';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right:-20px;
+    transition: 0.5s;
+  }
+  
+  #BTNN:hover span {
+    padding-right: 55px;
+  }
+  
+  #BTNN:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
